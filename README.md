@@ -10,11 +10,11 @@
 ```bash
 # 开启
 
-rm -rf /etc/opkg/distfeeds.conf && /wget -P /etc/opkg  https://fastly.jsdelivr.net/gh/miaoermua/CatWrt-MirrorsConf@main/amd64/distfeeds.conf
+rm -rf /etc/opkg/distfeeds.conf && wget -P /etc/opkg  https://fastly.jsdelivr.net/gh/miaoermua/CatWrt-MirrorsConf@main/amd64/distfeeds.conf
 
 
 # 关闭
 
-rm -rf /etc/opkg/distfeeds.conf && /wget -P /etc/opkg  https://fastly.jsdelivr.net/gh/miaoermua/CatWrt-MirrorsConf@main/disabled_conf/distfeeds.conf
+rm -rf /etc/opkg/distfeeds.conf && wget -P /etc/opkg  https://fastly.jsdelivr.net/gh/miaoermua/CatWrt-MirrorsConf@main/disabled_conf/distfeeds.conf
 
 ```
