@@ -17,4 +17,6 @@ rm -rf /etc/opkg/distfeeds.conf && wget -P /etc/opkg  https://fastly.jsdelivr.ne
 
 rm -rf /etc/opkg/distfeeds.conf && wget -P /etc/opkg  https://fastly.jsdelivr.net/gh/miaoermua/CatWrt-MirrorsConf@main/disabled_conf/distfeeds.conf
 
+$ rm -rf /etc/opkg/distfeeds.conf
+
 ```
